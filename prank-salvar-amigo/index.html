@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOY UN SALAME Y ME DICEN MAXI KIOSKO GOLOSINA </title>
+    <style>
+        body {
+            /* Classic green background with stars */
+            background-color: #00A651;
+            background-image: radial-gradient(white 1px, transparent 1px),
+                radial-gradient(white 1px, transparent 1px);
+            background-size: 50px 50px;
+            background-position: 0 0, 25px 25px;
+            color: #FFF54F;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: white;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 80px;
+            margin-bottom: 5px;
+            margin-top: 10px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .photo-frame {
+            border: 8px solid #FFF54F;
+            margin: 20px auto;
+            display: inline-block;
+            background-color: black;
+        }
+
+        .photo-frame img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .buttons {
+            margin: 40px 0;
+        }
+
+        .donate-btn {
+            background-color: #FFF54F;
+            color: black;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 30px;
+            border: 3px solid black;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .donate-btn:hover {
+            background-color: yellow;
+        }
+
+        footer {
+            margin-top: 50px;
+            color: white;
+            font-size: 14px;
+            font-family: Arial, sans-serif;
+            margin-bottom: 30px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .gallery img {
+            border: 4px solid #FFF54F;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 id="title-name">Maxi kiosko golosina</h1>
+        <h2>Amigo, Compañero & Leyenda</h2>
+
+        <div class="photo-frame">
+            <!-- REEMPLAZAR AQUÍ LA FOTO PRINCIPAL -->
+            <img id="main-photo" src="1.png" alt="Foto principal del amigo" width="400">
+        </div>
+
+        <p>
+            Mi amigo <strong class="friend-name"> Maxi kiosko golosina </strong> es increíble. Es divertido, pero no me di
+            cuenta de
+            cuánto hasta que descubrí su "terrible secreto". Que iba a suceder pronto. Que era real. Entonces pensé en
+            muchas cosas. Cosas en las que no había pensado durante mucho tiempo. Supongo que por culpa de dar nuestra
+            amistad por sentada o algo así.
+        </p>
+        <p>
+            Quiero decir, los amigos siempre están ahí. Esperas que siempre te acompañen a tomar algo, que te manden
+            memes sin sentido de madrugada o que te cuenten anécdotas exageradas. Ahora no me siento así. Todo es
+            diferente desde que <strong class="friend-name">Maxi kiosko golosina</strong> recibió su "diagnóstico de pereza extrema
+            crónica" (o cualquier otra broma que quieras poner aquí).
+        </p>
+        <p>
+            Él no se da cuenta de lo raro que es a veces, pero así le queremos. Creo que realmente no comprende que no
+            todo el mundo soporta sus chistes malos o sus manías extrañas. Así que en ese sentido, nos llevamos bien.
+            Tiene sentido que seamos amigos. Lo que quiero decir es que ya no me importa lo que digan los demás. La
+            conclusión es que es un buen tipo y nadie puede decir que no se preocupa por lo que hace. Realmente quiero
+            asegurarme de que siga aguantándome durante mucho tiempo. Por él, por sus amigos y por mí.
+        </p>
+
+        <h2 style="font-family: 'Times New Roman', Times, serif; color: white; display: none;" id="second-title">
+            AYUDEMOS A <span style="text-transform: uppercase;" class="friend-name">MAXI KIOSKO GOLOSINA</span></h2>
+
+        <p>
+            Ha sido una época muy dura en nuestro grupo de amigos desde que pasó lo del incidente EN EL CSGO2 que todos
+            juramos no mencionar. Nunca hemos tenido mucho dinero, pero nos manteníamos hasta que llegaron las facturas
+            de la última fiesta. Él es bastante orgulloso – vale, muy orgulloso – y no quiere la caridad. Esta es la
+            razón por la que estoy haciendo esto. No porque quiero cabrearle o enfadarle, sino porque quiero que tenga
+            una opción para pagar la próxima ronda de cervezas.
+        </p>
+
+        <div class="buttons">
+            <!-- BOTÓN DE DONAR FALSO -->
+            <a href="#" class="donate-btn"
+                onclick="alert('¡Has donado 10.000€ a la cuenta de juergas de ' + document.querySelector('.friend-name').innerText + '!'); return false;">DONAR
+                AHORA</a>
+        </div>
+
+        <div class="gallery">
+            <!-- REEMPLAZAR AQUÍ LAS FOTOS EXTERNAS -->
+            <img src="2.png" alt="Galeria 1">
+            <img src="3.png" alt="Galeria 2">
+            <img src="4.png" alt="Galeria 3">
+        </div>
+
+        <footer>
+            Hecho con ❤️ por un muy buen amigo.<br><br>
+            Términos de Uso | Política de Privacidad
+        </footer>
+    </div>
+
+</body>
+
+</html>
